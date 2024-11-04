@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f8e9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            text-align: center;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2e7d32;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 10px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #388e3c;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #2e7d32;
+        }
+
+        .btn-add-product {
+            background-color: #6a1b9a;
+        }
+
+        .btn-view-products {
+            background-color: #0288d1;
+        }
+
+        .btn-orders {
+            background-color: #ff8f00;
+        }
+        .btn-profile {
+            background-color: rgb(187, 95, 111);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, Farmer!</h1>
+        <p>Manage your products and keep track of orders easily.</p>
+        
+        <!-- Buttons for different actions -->
+        <a href="add_product.php" class="btn btn-add-product">Insert Product</a>
+        <a href="view_products.php" class="btn btn-view-products">View Your Products</a>
+        <a href="orders.php" class="btn btn-orders">View Orders</a>
+    </div>
+</body>
+</html>
